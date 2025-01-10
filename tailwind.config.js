@@ -1,16 +1,17 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {
-      fontFamily: {
-        sora: ["Sora", "sans-serif"],
-        inter: ["Inter", "sans-serif"],
+    content: [
+      "./app/**/*.{js,ts,jsx,tsx}", // for new app router
+      "./components/**/*.{js,ts,jsx,tsx}", // if you use /components
+    ],
+    theme: {
+      extend: {
+        fontFamily: {
+          sora: ["Sora", "sans-serif"],
+        },
       },
     },
-  },
-  plugins: [],
-};
+    plugins: [],
+  };
+  
