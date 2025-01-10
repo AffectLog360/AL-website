@@ -9,7 +9,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="py-20 text-center px-6">
         <h1 className="text-4xl font-extrabold mb-4 font-sora">
-          Ephemeral Data Capsules for Zero-Trust Analytics
+          AffectLog Ephemeral Data Capsules for Zero-Trust Analytics
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Combine data across owners while ensuring everything self-destructs after use.
